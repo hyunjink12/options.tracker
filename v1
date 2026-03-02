@@ -1,5 +1,4 @@
 import yfinance as yf
-import sys,
 t = yf.Ticker("NVDA")
 expiries = t.options
 print(expiries [:35], len(expiries))
